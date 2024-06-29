@@ -68,5 +68,6 @@ function reiniciarJogo() {
     numeroSecreto = geraNumeroAleatorio();
     tentativas = 1;
     limparInput();
+    document.getElementById('reiniciar').setAttribute('disable',true);
     exibeMensagemBoasVindas()
 }
