@@ -1,5 +1,5 @@
 let listaNumerosSorteados = [];
-let numeroLimiteSorteios = 3;
+let numeroLimiteSorteios = 100;
 
 function geraNumeroAleatorio() {
     let numeroSecreto =  parseInt(Math.random() * numeroLimiteSorteios+1);
